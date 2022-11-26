@@ -16,7 +16,7 @@ class SoapConnector implements Connector
         $this->wsdl = $wsdl;
     }
 
-    public function fetch(DataSource $source)
+    public function fetch(DataSource $source): mixed
     {
         if (!$source instanceof SoapDataSource) {
             throw new \InvalidArgumentException('Options must be an instance of SoapDataSource.');
