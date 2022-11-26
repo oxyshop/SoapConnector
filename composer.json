@@ -9,11 +9,7 @@
   ],
   "license": "LGPL-3.0",
   "require": {
-    "scriptfusion/porter": ">=1,<4"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^4.8",
-    "mockery/mockery": "^0.9.4"
+    "scriptfusion/porter": "dev-oxy"
   },
   "autoload": {
     "psr-4": {
@@ -25,6 +21,12 @@
       "ScriptFUSIONTest\\": "test"
     }
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:oxyshop/Porter.git"
+    }
+  ],
   "scripts": {
     "test": "phpunit -c test"
   }
