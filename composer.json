@@ -10,7 +10,7 @@
   "license": "LGPL-3.0",
   "require": {
     "ext-soap": "*",
-    "scriptfusion/porter": "dev-oxyshop"
+    "scriptfusion/porter": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "^4.8",
